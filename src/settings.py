@@ -13,7 +13,7 @@ from dataset_tools.templates import (
 ##################################
 # * Before uploading to instance #
 ##################################
-PROJECT_NAME: str = "ArSL21L_val"
+PROJECT_NAME: str = "ArSL21L"
 PROJECT_NAME_FULL: str = "ArSL21L: Arabic Sign Language Letter Dataset"
 HIDE_DATASET = True  # set False when 100% sure about repo quality
 
