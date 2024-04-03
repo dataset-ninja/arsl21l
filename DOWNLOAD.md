@@ -1,6 +1,6 @@
 Dataset **ArSL21L** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](Set 'HIDE_DATASET=False' to generate download link)
+ [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/P/S/bY/NI2gYP0QK32DZiTjX0ZnrrIJEDk97bRBHkJ3mxgEZ42rGDd2hlQXvfUwFZIYxcYLeLJSbHnW9hTZ7gvaeTsb2y09jWKt7V0ihlI6M0CZaCTiqRIGbm18IgACUY7Y.tar)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
