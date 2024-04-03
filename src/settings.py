@@ -15,7 +15,7 @@ from dataset_tools.templates import (
 ##################################
 PROJECT_NAME: str = "ArSL21L"
 PROJECT_NAME_FULL: str = "ArSL21L: Arabic Sign Language Letter Dataset"
-HIDE_DATASET = True  # set False when 100% sure about repo quality
+HIDE_DATASET = False  # set False when 100% sure about repo quality
 
 ##################################
 # * After uploading to instance ##
@@ -24,7 +24,7 @@ LICENSE: License = License.CC_BY_4_0()
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [Domain.Educational()]
 CATEGORY: Category = Category.General()
 
-CV_TASKS: List[CVTask] = [CVTask.ObjectDetection(), CVTask.Identification()]
+CV_TASKS: List[CVTask] = [CVTask.ObjectDetection()]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.ObjectDetection()]
 
 RELEASE_DATE: Optional[str] = "2022-02-11"  # e.g. "YYYY-MM-DD"
